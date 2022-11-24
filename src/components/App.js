@@ -3,7 +3,10 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="main">
+    <h1 className='project-name'>React BoilerPlate</h1>
+    <p className='project-description'> It is project description</p>
+    </div>
   )
 }
 
